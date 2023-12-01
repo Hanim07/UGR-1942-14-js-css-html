@@ -5,21 +5,25 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>My Portfolio Website</title>
-	<link rel="stylesheet" href="style1.css">
+	<link rel="stylesheet" href="css/styles.css">
 
-	<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
         <a href="#" class="logo">Ham<span>moon</span></a>
-        <ul class="navlist">
-            <li><a href="homepage.html">Home</a></li>
-            <li><a href="Aboutpage.html">About Me</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contactme.html">Contact Me</a></li>
-        </ul>
-        <div class="bx bx-menu" id="menu-icon"></div>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+            <ul class="navlist">
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="Aboutpage.html">About Me</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contactme.html">Contact Me</a></li>
+            </ul>
     </header>
     <section class="home" id="home">
         <div class="home-text">
@@ -30,12 +34,19 @@
             <h1>Hanim Abdurezak</h1>
             <h3>Website Designer and <span>Programmer</span></h3>
             <div class="button">
-                <a href="#" class="btn">About Me</a>
+                <a href="Aboutpage.html" class="btn">About Me</a>
             </div>
         </div>
     </section>
     <footer>
-        <p> copyright messages 2023</p>
+        <div class="copy-right">
+            <p>&copy; copy right 2023. All rights reserved. </p>
+        </div>
+        <div class="main-icons">
+            <a href="#"><i class="fa-brands fa-telegram"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
     </footer>
 </body>
 

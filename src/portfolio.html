@@ -4,17 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header class="portfolioheader">
-        <ul class="navlist">
-            <li><a href="homepage.html">Home</a></li>
-            <li><a href="Aboutpage.html">About Me</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contactme.html">Contact Me</a></li>
-        </ul>
+    <header>
+        <a href="#" class="logo">Ham<span>moon</span></a>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+            <ul class="navlist">
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="Aboutpage.html">About Me</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contactme.html">Contact Me</a></li>
+            </ul>
     </header>
     <section class="Portfolio" id="portfolio">
         <div class="main-text">
@@ -22,57 +30,65 @@
         </div>
         <div class="portfolio-content">
             <div class="row">
-                <img src="../image/project1.jpg" alt="">
+                <img src="image/project1.jpg" alt="">
                 <div class="layer">
                     <h5>Visual design</h5>
-                    <p>Check out 5 design updates for the top web designand development companies.</p>
-                    <a href="#"> <i class="bx bx-link-external"></i></a>
+                    <p>Visual design is essential in creating a positive user experience, capturing attention, and effectively communicating information.</p>
+                    <a href="#"> <i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
             </div>
             <div class="row">
-                <img src="../image/project2.jpg" alt="">
+                <img src="image/project2.jpg" alt="">
                 <div class="layer">
-                    <h5>Visual design</h5>
-                    <p>Check out 5 design updates for the top web designand development companies.</p>
-                    <a href="#"> <i class="bx bx-link-external"></i></a>
+                    <h5>Web Development Projects</h5>
+                    <p>Develop an e-commerce website with features like product listings, shopping carts, and secure payment processing.</p>
+                    <a href="#"> <i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
             </div>
             <div class="row">
-                <img src="../image/project3.jpg" alt="">
+                <img src="image/project3.jpg" alt="">
                 <div class="layer">
-                    <h5>Visual design</h5>
-                    <p>Check out 5 design updates for the top web designand development companies.</p>
-                    <a href="#"> <i class="bx bx-link-external"></i></a>
+                    <h5> Mobile App Development Projects</h5>
+                    <p>Develop a mobile app for a specific purpose, such as a task manager, budgeting tool, or fitness tracker.</p>
+                    <a href="#"> <i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
             </div>
             <div class="row">
-                <img src="../image/project4.jpg" alt="">
+                <img src="image/project4.jpg" alt="">
                 <div class="layer">
-                    <h5>Visual design</h5>
-                    <p>Check out 5 design updates for the top web designand development companies.</p>
-                    <a href="#"> <i class="bx bx-link-external"></i></a>
+                    <h5>Game Development Projects</h5>
+                    <p>Develop a puzzle game with interactive gameplay mechanics and challenging levels.</p>
+                    <a href="#"> <i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
             </div>
             <div class="row">
-                <img src="../image/project5.jpg" alt="">
+                <img src="image/project5.jpg" alt="">
                 <div class="layer">
-                    <h5>Visual design</h5>
-                    <p>Check out 5 design updates for the top web designand development companies.</p>
-                    <a href="#"> <i class="bx bx-link-external"></i></a>
+                    <h5>Data Science and Machine Learning Projects</h5>
+                    <p>Build a recommendation system that suggests products, movies, or music based on user preferences.</p>
+                    <a href="#"> <i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
             </div>
             <div class="row">
-                <img src="../image/project6.jpg" alt="">
+                <img src="image/project6.jpg" alt="">
                 <div class="layer">
-                    <h5>Visual design</h5>
-                    <p>Check out 5 design updates for the top web designand development companies.</p>
-                    <a href="#"> <i class="bx bx-link-external"></i></a>
+                    <h5>Open Source Contributions</h5>
+                    <p>Contribute to open source projects by fixing bugs, implementing new features, or improving documentation.</p>
+                    <a href="#"> <i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
             </div>
         </div>
     </section>
+
     <footer>
-        <p> copyright messages 2023</p>
+        <div class="copy-right">
+            <p>&copy; copy right 2023. All rights reserved. </p>
+        </div>
+        <div class="main-icons">
+            <a href="#"><i class="fa-brands fa-telegram"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
     </footer>
 </body>
 </html>

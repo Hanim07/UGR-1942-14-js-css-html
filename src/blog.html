@@ -5,55 +5,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Page</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;700&display=swap">
-    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-
-    <header class="blogheader">
-        <ul class="navlist">
-            <li><a href="homepage.html">Home</a></li>
-            <li><a href="Aboutpage.html">About Me</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contactme.html">Contact Me</a></li>
-        </ul>
+    <header>
+        <a href="#" class="logo">Ham<span>moon</span></a>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+            <ul class="navlist">
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="Aboutpage.html">About Me</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contactme.html">Contact Me</a></li>
+            </ul>
     </header>
+ 
+    <main>
+        <section class="bcontent">
+            <h1>Blog</h1>
+            <br>
+            <article class="bcontainer">
+                <img src="image/blog2.jpg" alt="Image 2">
+                <p> Coffee with Coding</p>
+                <p> Coffee has long been a beloved companion for many, providing a boost of energy and a moment of respite. Pairing it with coding creates a delightful synergy, blending the invigorating properties of caffeine with the creative process of programming. </p>
+            </article>
+            
+            <article class="bvideo-container">
+                <video src="image/blog3.mp4" controls></video>
+                <p>Reflections on High School: A Time of Growth, Friendship, and Discovery</p>
+                <p>High school is a remarkable phase in our lives, encompassing a myriad of experiences that shape our identities and prepare us for the journey ahead. It's a time of transition, growth, and self-discovery.</p>
+            </article>
 
-    <div class="bcontent">
-        <h1 style="font-family: 'Playfair Display', serif;">Blog</h1>
+            <article class="bcontainer">
+                <img src="image/blog1.jpg" alt="Image 1">
+                <p>Embracing the Joy of Lifelong Learning</p>
+                <p> Learning is a lifelong journey, an ever-evolving process that fuels personal growth, expands our horizons, and ignites our curiosity. From the moment we enter the world, we embark on a continuous quest for knowledge and understanding.</p>
+            </article>
+            
+            <article class="baudio-container"> 
+                <p> From Audios</p>
+                <audio controls>
+                    <source src="image/calmingaudio.mp3" type="audio/mp3">
+                </audio>
+                <p>Listen to this calming instrumental music while reading a book or working. It's perfect for creating a focused and tranquil environment.</p>
+            </article>
+        </section>
+    </main>
 
-        <div class="bcontainer">
-            <img src="../image/blog1.jpg" alt="Image 1">
-            <p>Embracing the Joy of Lifelong Learning</p>
-            <p> Learning is a lifelong journey, an ever-evolving process that fuels personal growth, expands our horizons, and ignites our curiosity. From the moment we enter the world, we embark on a continuous quest for knowledge and understanding</p>
+    <footer>
+        <div class="copy-right">
+            <p>&copy; copy right 2023. All rights reserved. </p>
         </div>
-
-        <div class="bvideo-container">
-            <video src="../image/blog3.mp4"  ></video>
-            <p>Reflections on High School: A Time of Growth, Friendship, and Discovery</p>
-            <p>High school is a remarkable phase in our lives, encompassing a myriad of experiences that shape our identities and prepare us for the journey ahead. It's a time of transition, growth, and self-discovery.</p>
+        <div class="main-icons">
+            <a href="#"><i class="fa-brands fa-telegram"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
         </div>
-
-        <div class="bcontainer">
-            <img src="../image/blog2.jpg" alt="Image 2">
-            <p> Coffee has long been a beloved companion for many, providing a boost of energy and a moment of respite. Pairing it with coding creates a delightful synergy, blending the invigorating properties of caffeine with the creative process of programming. </p>
-        </div>
-
-        <div class="baudio-container">
-            <audio controls>
-                <source src="../image/calmingaudio.mp3" type="audio/mp3">
-                Your browser does not support the audio tag.
-            </audio>
-            <p>Listen to this calming instrumental music while reading a book or working. It's perfect for creating a focused and tranquil environment.</p>
-        </div>
-    </div>
-
-    <footer >
-        <p> copyright messages 2023</p>
     </footer>
-
 </body>
 
 </html>
