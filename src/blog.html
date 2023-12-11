@@ -18,38 +18,42 @@
         </label>
             <ul class="navlist">
                 <li><a href="homepage.html">Home</a></li>
-                <li><a href="Aboutpage.html">About Me</a></li>
+                <li><a href="Aboutpage.html">About</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contactme.html">Contact Me</a></li>
+                <li><a class="active" href="blog.html">Blog</a></li>
+                <li><a href="contactme.html">Contact</a></li>
             </ul>
     </header>
  
     <main>
-        <section class="bcontent">
-            <h1>Blog</h1>
-            <br>
-            <article class="bcontainer">
-                <img src="image/blog2.jpg" alt="Image 2">
-                <p> Coffee with Coding</p>
-                <p> Coffee has long been a beloved companion for many, providing a boost of energy and a moment of respite. Pairing it with coding creates a delightful synergy, blending the invigorating properties of caffeine with the creative process of programming. </p>
-            </article>
+        <section class="blog">
+            <div class="main-text">
+                <h2>My  <span>Blog</span></h2>
+            </div>
+            <div class="blog-content">
+                <div class="blog-container">
+                    <img src="image/blog2.jpg" alt="Image 2">
+                    <p> Coffee with Coding</p>
+                    <p> Coffee has long been a beloved companion for many, providing a boost of energy and a moment of respite. Pairing it with coding creates a delightful synergy, blending the invigorating properties of caffeine with the creative process of programming. </p>
+                </div>
             
-            <article class="bvideo-container">
-                <video src="image/blog3.mp4" controls></video>
-                <p>Reflections on High School: A Time of Growth, Friendship, and Discovery</p>
-                <p>High school is a remarkable phase in our lives, encompassing a myriad of experiences that shape our identities and prepare us for the journey ahead. It's a time of transition, growth, and self-discovery.</p>
-            </article>
+                <div class="blog-container">
+                    <img src="image/blog1.jpg" alt="Image 1">
+                    <p>Embracing the Joy of Lifelong Learning</p>
+                    <p> Learning is a lifelong journey, an ever-evolving process that fuels personal growth, expands our horizons, and ignites our curiosity. From the moment we enter the world, we embark on a continuous quest for knowledge and understanding.</p>
+                </div>
 
-            <article class="bcontainer">
-                <img src="image/blog1.jpg" alt="Image 1">
-                <p>Embracing the Joy of Lifelong Learning</p>
-                <p> Learning is a lifelong journey, an ever-evolving process that fuels personal growth, expands our horizons, and ignites our curiosity. From the moment we enter the world, we embark on a continuous quest for knowledge and understanding.</p>
-            </article>
-            
-            <article class="baudio-container"> 
-                <p> From Audios</p>
+                <div class="blog-video-container">
+                    <video src="image/blog3.mp4" controls></video>
+                    <p>Reflections on High School: A Time of Growth, Friendship, and Discovery</p>
+                    <p>High school is a remarkable phase in our lives, encompassing a myriad of experiences that shape our identities and prepare us for the journey ahead. It's a time of transition, growth, and self-discovery.</p>
+                </div>
+
+            </div>
+            <article class="blog-audio-container"> 
+                <h4> From Audios</h4>
+                <br>
                 <audio controls>
                     <source src="image/calmingaudio.mp3" type="audio/mp3">
                 </audio>
@@ -59,13 +63,13 @@
     </main>
 
     <footer>
-        <div class="copy-right">
-            <p>&copy; copy right 2023. All rights reserved. </p>
-        </div>
-        <div class="main-icons">
+        <div class="footer-icons">
             <a href="#"><i class="fa-brands fa-telegram"></i></a>
             <a href="#"><i class="fa-brands fa-instagram"></i></a>
             <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <div class="copy-right">
+            <p>&copy; copy right 2023. All rights reserved. </p>
         </div>
     </footer>
 </body>

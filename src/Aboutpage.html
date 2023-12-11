@@ -17,11 +17,11 @@
         </label>
             <ul class="navlist">
                 <li><a href="homepage.html">Home</a></li>
-                <li><a href="Aboutpage.html">About Me</a></li>
+                <li><a class="active" href="Aboutpage.html">About</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="blog.html">Blog</a></li>
-                <li><a href="contactme.html">Contact Me</a></li>
+                <li><a href="contactme.html">Contact</a></li>
             </ul>
     </header>
     <section class="about" id="about">
@@ -39,78 +39,80 @@
                 <a href="contactme.html" class="btn">Contact Me</a>
         </div>
     </section>
+    
+    <section id="container">
+        <section id="education">
+            <div class="education-text">
+                <h1>My <span>Education</span></h1>
+            </div>
+            <br>
+            <article>
+                <h4>Primary Education</h4>
+                <p>I learned in Bashewam school where I have Completed Kindergarten, laying the foundation for a lifelong learning journey. I gained a solid understanding of fundamental subjects such as mathematics, language arts, science, and social studies. Throughout my primary education, I actively engaged in group projects, fostering my curiosity, critical thinking, and teamwork skills.</p>
+            </article>
+                <hr>
+            <article>
+                <h4>Preparatory and Secondary Education</h4>
+                <p>I successfully completed my secondary education at Meweda school. During this phase, I demonstrated academic excellence and a strong commitment to education. I engaged in a diverse range of subjects, including advanced mathematics, physics, chemistry, and history. Alongside my studies, I actively participated in community service, further developing my leadership and communication skills.</p>
+            </article>
+                <hr>
+            <article>
+                <h4>Higher Education</h4>
+                <p>I am currently pursuing higher education at AAU University, where I am expanding my knowledge and skills in Software Engineering. Throughout my higher education journey, I actively participate in student organizations and take part in internships, gaining practical experience. I am dedicated to continuous learning and strive to make meaningful contributions to my field.</p>
+            </article>
+        </section>
 
-    <section id="education">
-        <div class="education-text">
-            <h1>My <span>Education</span></h1>
-        </div>
-        <br>
-        <article>
-            <h4>Primary Education</h4>
-            <p>I learned in Bashewam school where I have Completed Kindergarten, laying the foundation for a lifelong learning journey. I gained a solid understanding of fundamental subjects such as mathematics, language arts, science, and social studies. Throughout my primary education, I actively engaged in classroom activities, group projects, and extracurricular events, fostering my curiosity, critical thinking, and teamwork skills.</p>
-        </article>
-            <hr>
-        <article>
-            <h4>Preparatory and Secondary Education</h4>
-            <p>I successfully completed my secondary education at Meweda school. During this phase, I demonstrated academic excellence and a strong commitment to education. I engaged in a diverse range of subjects, including advanced mathematics, literature, physics, chemistry, and history. Alongside my studies, I actively participated in extracurricular activities, such as debate club and community service, further developing my leadership and communication skills.</p>
-        </article>
-            <hr>
-        <article>
-            <h4>Higher Education</h4>
-            <p>I am currently pursuing higher education at AAU University, where I am expanding my knowledge and skills in Software Engineering. Throughout my higher education journey, I have been exposed to a rigorous academic curriculum, engaging in in-depth study and research. This experience has allowed me to develop a strong foundation in Software Engineering and has provided opportunities for personal and professional growth. I actively participate in student organizations and take part in internships, gaining practical experience. I am dedicated to continuous learning and strive to make meaningful contributions to my field.</p>
-        </article>
-    </section>
-
-    <section id="skills">
-        <div class="skill-items"> 
-            <h1>My <span>Skills</span></h1>
-        </div>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Skills</th>
-                        <th></th>
-                        <th></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Programming</td>
-                        <td>Web Designing</td>
-                        <td>Graphic Design</td>
-                    </tr>
-                    <tr>
-                        <td>Mathematics</td>
-                        <td>App development</td>
-                        <td>Sports</td>
-                    </tr>
-                </tbody>
-            </table>
+        <section id="skills">
+            <div class="skill-items"> 
+                <h1>My <span>Skills</span></h1>
+            </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Skills</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Programming</td>
+                            <td>Web Designing</td>
+                            <td>Graphic Design</td>
+                        </tr>
+                        <tr>
+                            <td>Mathematics</td>
+                            <td>App development</td>
+                            <td>Sports</td>
+                        </tr>
+                    </tbody>
+                </table>
+        </section>
     </section>
 
     <section id="hobbies">
         <div class="hobbies-container"><h1>Hobbies</h1></div>
         <div class="hobby-item">
-            <div class="row">
+            <div class="hobby">
                 <h2>Reading</h2>
                 <br>
                 <img src="image/hobby3.jpg" alt="Hobby Image 1">
             </div>
-            <div class="row">
+            <div class="hobby">
                 <h2>Gaming </h2>
                 <br>
                 <img src="image/hooby2.jpg" alt="Hobby Image 2">
             </div>
 
-            <div class="row">
+            <div class="hobby">
                 <h2>Cooking</h2>
                 <br>
-                <video width="200" height="200" controls>
+                <video controls>
                     <source src="image/cooking.mp4" type="video/mp4" class="cookvideo">
                 </video>
             </div>
 
-            <div class="row">
+            <div class="hobby">
                 <h2>Writing and Coding </h2>
                 <br>
                 <img src="image/hobby1.jpg" alt="Hobby Image 3">
@@ -119,13 +121,13 @@
         </div>
     </section>
     <footer>
-        <div class="copy-right">
-            <p>&copy; copy right 2023. All rights reserved. </p>
-        </div>
-        <div class="main-icons">
+        <div class="footer-icons">
             <a href="#"><i class="fa-brands fa-telegram"></i></a>
             <a href="#"><i class="fa-brands fa-instagram"></i></a>
             <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <div class="copy-right">
+            <p>&copy; copy right 2023. All rights reserved. </p>
         </div>
     </footer>
 </body>
